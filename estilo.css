@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root{
+    --branco_principal: "#ffffff";
+    --preto: "#000000";
+    --fonte-principal: "Oswald" 
+}
+section {
+        display: inline-block}
+
+
+body{
+    background-color: var(--preto);
+    color: var(--branco_principal);
+    font-family: var(--fonte-principal);
+    font-size: 30px;
+    background-image: url(wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    
+}
+
+section{
+    
+    width: 2500px;
+    height: relative;
+}
+.principal{
+    display: flex;
+   
+}
